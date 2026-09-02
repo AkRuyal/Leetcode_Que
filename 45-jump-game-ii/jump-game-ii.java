@@ -16,6 +16,9 @@ class Solution {
                 j++;
                 c = f;
             }
+            if (c >= n - 1) {
+                break;
+            }
 
             i++;
         }
