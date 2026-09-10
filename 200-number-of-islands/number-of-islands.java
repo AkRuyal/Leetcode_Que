@@ -36,9 +36,9 @@ class Solution {
 
         grid[r][c] = '0';
 
-        dfs(grid, r - 1, c); // up
-        dfs(grid, r + 1, c); // down
-        dfs(grid, r, c - 1); // left
-        dfs(grid, r, c + 1); // right
+        dfs(grid, r - 1, c); 
+        dfs(grid, r + 1, c);
+        dfs(grid, r, c - 1); 
+        dfs(grid, r, c + 1); 
     }
 }
